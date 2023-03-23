@@ -146,6 +146,10 @@ body {
     transition: padding 0.5s ease;
 }
 
+.question:hover {
+    color: var(--soft-red)
+}
+
 .question-clicked {
     color:var(--Very-dark-desaturated-blue);
     font-weight: bold;
