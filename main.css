@@ -124,8 +124,7 @@ body {
 }
 
 .faqs {
-    overflow:auto;
-    scroll-snap-type: none ;
+    overflow:hidden;
 }
 
 .faqs:hover {
