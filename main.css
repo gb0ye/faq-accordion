@@ -128,6 +128,15 @@ body {
     scroll-snap-type: none ;
 }
 
+.faqs:hover {
+    overflow: auto;
+    transition: all 0.5 ease;
+}
+
+.faqs::-webkit-scrollbar {
+    width: 0px;
+}
+
 .question {
     display: flex;
     justify-content: space-between;
